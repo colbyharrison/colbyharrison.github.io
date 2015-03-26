@@ -1,0 +1,20 @@
+body {
+	background: black;
+	color: white;
+	font-family: courier, monospace;
+	/*font: 14px/22px 'Open Sans', Arial, sans-serif;*/
+	text-align: justify;	
+}
+
+input{
+
+	background: black;
+	color: white;
+	font-family: courier, monospace;
+	font-size: large;
+	border: 0px;
+    outline:0; 
+    height:25px; 
+    width: 200px; 
+}
+

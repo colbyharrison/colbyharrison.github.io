@@ -1,1 +1,22 @@
-Hello World
+<!DOCTYPE html>
+<html onclick="document.getElementById('command').focus();">
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="background.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+
+<div id = "console"  style ="margin: 0 auto; text-align: center;" >
+	<h1 style="font-size: -webkit-xxx-large;">Colby Harrison</h1>
+	<!-- <p id="replace">"To be replaced</p> -->
+	<p id ="output">
+		$Input...<input id="command" class = "textbox" autocomplete="off" type="text" onkeypress="runScript(event)" maxlength="20" autofocus>
+	</p>
+	<div id="replace">"To be replaced</div>
+</div>
+
+
+
+</body>
+</html>
