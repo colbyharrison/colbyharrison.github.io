@@ -18,3 +18,21 @@ input{
     width: 200px; 
 }
 
+.column {
+    width: 100px;
+    /*border: 1px green solid;*/
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+}
+.column2 {
+    width: 234px;
+    /*border: 1px green solid;*/
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+}
+/*.container {
+    margin:auto;
+    text-align: center;
+}*/
