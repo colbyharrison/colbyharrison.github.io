@@ -1,3 +1,4 @@
+
 function runScript(e) {
 	//var console = document.getElementById('console');
     	if (e.keyCode == 13) { 
@@ -38,3 +39,4 @@ function runScript(e) {
     		document.getElementById('command').value = '';
     	}
     }
+
