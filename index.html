@@ -5,17 +5,28 @@
 	<script src="background.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body> 
+<body style = "margin-top:115px"onload="intro()" > 
 
-<div id = "console"  style ="margin: 0 auto; text-align: center;" >
-	<h1 style="font-size: -webkit-xxx-large;">Colby Harrison</h1>
+<div id = "console"  style ="margin: 0 auto; text-align: left; width:80% " >
+	<!-- <h1 style="font-size: -webkit-xxx-large;">Colby Harrison</h1> -->
 	<!-- <p id="replace">"To be replaced</p> -->
-	<p id ="output">
-		$Input...<input id="command" class = "textbox" autocomplete="off" type="text" onkeypress="runScript(event)" maxlength="20" autofocus>
+	<p id ="output" style="left">
+		<span id ="a">colby@harrison</span>:<span id = "b">~</span><span id ="c">$</span><input id="command" class = "textbox" autocomplete="off" type="text" onkeypress="runScript(event)" maxlength="20" autofocus>
 
 	</p>
 	<!-- <div id="replace" style="display: none;">"To be replaced</div> -->
 
+	<div id="intro" class = "printed" style="display: none;" onload =" buttons()">
+
+		<p id='toprint' ></p>
+		<button id="butt" style="display:none;">TEST</button>
+		<script type="text/javascript">
+			$(function () {
+    			showText('#toprint', 'My name is Colby Harison.\nWant to know more?\nUse commands:  about     contact     projects     resume\n If you dislike keyboards use the buttons at the top', 0, 50);
+
+			});
+		</script>
+	</div>
 	<div id="help" class ="printed" style="display: none;">
     	<div class="column">
         	about<br>

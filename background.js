@@ -43,7 +43,7 @@ function runScript(e) {
     				// para.innerHTML= "$Input..."+ input + "<br>Projects goes here";
     				break;
     			default:
-                    document.getElementById('error').style.display = 'block';
+                    document.getElementById('intro').style.display = 'block';
     				// para.innerHTML= "$Input..."+ input + "<br>No Such Command <br> You need: help";
     		}
 
@@ -53,4 +53,28 @@ function runScript(e) {
     		document.getElementById('command').value = '';
     	}
     }
+
+function intro(){
+    document.getElementById('intro').style.display = 'block';
+
+}
+
+function buttons(){
+    document.getElementById('butt').style.display = 'block';
+}
+
+var showText = function (target, message, index, interval) {
+    if (index < message.length) {
+        if(message[index]=='\n'){
+            $(target).append("<br />");
+        } 
+        // if(message[index]=='^'){
+        //     $(target).append("<button>about</button>");
+        // } 
+            $(target).append(message[index++]);
+        setTimeout(function () {
+            showText(target, message, index, interval);
+        }, interval);
+    }
+};
 
