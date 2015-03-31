@@ -46,3 +46,10 @@ input{
 #c {
     color: #0bc;
 }
+
+#aboutB {
+    color:#0bc;
+    padding: 0;
+    border: none;
+    background: none;
+}

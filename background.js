@@ -32,6 +32,8 @@ function runScript(e) {
     				break;
     			case "about":
                     document.getElementById('about').style.display = 'block';
+                   // document.getElementById('printAbout').value = '';
+                    // showText('#printAbout', 'As previously stated my name is Colby Harrison. I am a 4th year Computer Science Major at University of California,  San Diego. With expected graduation date: June 2016.', 0, 20);
     				// para.innerHTML= "$Input..."+ input + "<br>About goes here";
     				break;
     			case "contact":
@@ -69,7 +71,7 @@ var showText = function (target, message, index, interval) {
             $(target).append("<br />");
         } 
         if(message[index]=='a' && message[index+1] == 'b'){
-            $(target).append("<button>about</button>");
+            $(target).append("<button id = 'aboutB'>about</button>");
             index = index + 5;
         } 
             $(target).append(message[index++]);
