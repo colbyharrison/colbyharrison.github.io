@@ -68,9 +68,10 @@ var showText = function (target, message, index, interval) {
         if(message[index]=='\n'){
             $(target).append("<br />");
         } 
-        // if(message[index]=='^'){
-        //     $(target).append("<button>about</button>");
-        // } 
+        if(message[index]=='a' && message[index+1] == 'b'){
+            $(target).append("<button>about</button>");
+            index = index + 5;
+        } 
             $(target).append(message[index++]);
         setTimeout(function () {
             showText(target, message, index, interval);
