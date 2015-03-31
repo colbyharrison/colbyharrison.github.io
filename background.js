@@ -69,7 +69,7 @@ var showText = function (target, message, index, interval) {
             $(target).append("<br />");
         } 
         if(message[index]=='a' && message[index+1] == 'b'){
-            $(target).append("<button>about</button>");
+            $(target).append("<button style='background = black; color=white;'>about</button>");
             index = index + 5;
         } 
             $(target).append(message[index++]);
