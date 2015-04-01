@@ -18,6 +18,9 @@ input{
     width: 200px; 
 }
 
+a{
+	color:#0bc;
+}
 .column {
     width: 100px;
     /*border: 1px green solid;*/
@@ -39,10 +42,22 @@ input{
 /*this is important for the terminal line*/
 #a { 
         color: #0f0;
-    }
+}
 #b {
     color: #ff0096;
 }
 #c {
     color: #0bc;
+}
+
+#aboutB {
+    color:#0bc;
+    padding: 0;
+    border: none;
+    background: none;
+}
+.shortcuts{
+	cursor:pointer;
+	text-decoration: underline;
+	color:#0bc;
 }
