@@ -10,3 +10,4 @@ I guess what i need to do is find some website that I really like and then make 
 rigght now. An idea I have is bars on the side of the page containing words. When you click on one it slides out shoots
 down a document holding the information i want to share. How do I go about this? What tools do I need. Well one thing
 I know is that needs to be a static page so hmm 
+
