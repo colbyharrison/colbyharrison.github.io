@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
       font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 20px;
 }
 
@@ -26,6 +26,10 @@ html, body {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+}
+
+.mdl-layout__tab-bar-button {
+    display: none;
 }
 .mdl-card{
 	height: auto;
@@ -60,16 +64,16 @@ html, body {
 }
 
 #work section.section--center{
-	max-width:860px;
+	max-width:1000px;
   margin-bottom: 48px;
 }
 
  section.section--center  {
-	max-width:636px
+	max-width:1000px
 }
 
 #about section.section--full{
-  max-width:1000px;
+  max-width:1500px;
 }
 
 
@@ -136,6 +140,7 @@ section > header{
 
 .dropx{
   min-height: 212px;
+
    display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -169,9 +174,13 @@ max-width: 100%;
     background-size: contain;
   
 }*/
-
-.material-icons.md-48 { 
+#colby-row{
+  height: 283px;
+}
+.material-icons.md-96 { 
   font-size: 96px; }
+  .material-icons.md-48 { 
+  font-size: 48px; }
 .material-icons.red600 { color: #e53935; }
 .linkedIn{
   text-decoration: none;
@@ -179,3 +188,20 @@ max-width: 100%;
   padding-right: 12px;
   padding-bottom: 5px;
 }
+.backg{
+background-image:url('./assets/panorama.jpg') ;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    max-height: 100%;
+    background-attachment: fixed;
+  }
+
+   #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
