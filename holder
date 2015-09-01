@@ -1,0 +1,197 @@
+ <section class="mdl-layout__tab-panel" id="work">
+        <div class="page-content">
+          <!-- Your content goes here -->
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+            <header class="colby-topper mdl-cell mdl-cell mdl-cell--12-col mdl-color--cyan-900 mdl-color-text--white ">
+              <h3>Work</h3>
+
+            </header>
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--cyan-800 mdl-color-text--white">
+              <h4>Tutor</h4>
+            </header>
+
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                
+                <h4 class="colby-top ">University of California, San Diego</h4>
+                <h6 class="colby ">Spring Quarter 2015</h6>
+                <div class="mdl-card__supporting-text">
+                 CSE 110: Software Engineering -- This course is the students first exposure to working in teams of 10 plus. Students are
+                  tasked with creating an application on any platform they choose. Tutors run labs to teach students important
+                  languages and tools necessary to completing their projects.
+                  <br><br> 
+                  CSE 15L: Techniques &amp; Tools Lab -- Course focuses on teaching students important tools to their school
+                  career in Computer Science. I helped students complete the labs by answering questions abd debugging code.
+
+                </div>
+
+                
+              </div>
+             
+            </div>
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--cyan-700 mdl-color-text--white">
+              <h6>Software Engineer Intern</h6>
+              
+            </header>
+
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                 <h4 class="colby-top ">Cubic Transportation Systems</h4>
+                <h6 class="colby ">June 2014 - April 2015</h6>
+                <div class="mdl-card__supporting-text">
+                  Worked in a team of four to create a paper-less/card-less payment system for public transportation.<br>
+                  Continued to work at Cubic during the school year. I worked on a system to allow payment for public transportation
+                  using facial recognition.
+                </div>
+              </div>
+              
+            </div>
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--cyan-600 mdl-color-text--white">
+              <h6>Student Advisor</h6>
+              
+            </header>
+
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                 <h4 class="colby-top ">Santa Rosa Junior College</h4>
+                <h6 class="colby ">September 2011 - January 2013</h6>
+                <div class="mdl-card__supporting-text">
+                  Coached fellow Community College students in the inner workings of the Financial Aid System. As well as maintaining and organizing Financial Aid documents.
+                </div>
+              </div>
+              
+            </div>
+          </section>
+
+          <!-- Second part School -->
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+            <header class=" colby-topper mdl-cell mdl-cell mdl-cell--12-col mdl-color--purple-900 mdl-color-text--white ">
+              <h3>Extra</h3>
+
+            </header>
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--purple-800 mdl-color-text--white">
+              <h6>Undergrad Research</h6>
+            </header>
+
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                
+                <h4 class="colby-top ">University of California, San Diego</h4>
+                <h6 class="colby ">Summer 2014</h6>
+                <div class="mdl-card__supporting-text">
+                 Worked with <a class ="mdl-color-text--primary" href="http://weibel.ucsd.edu/?file=home.php"> Dr. Nadir Weibel</a> on a small plugin for The Morae Recording System to track the mouse movements and record them to a .csv file. The code for was in C++, and more specifically followed Microsoft COM styling. To complete this project I was in close communication with the developers of Morae. They were very helpful.
+                </div>
+
+                
+              </div>
+             
+            </div>
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--purple-700 mdl-color-text--white">
+              <h5>CSE 110</h5>
+              
+            </header>
+
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                 <h4 class="colby-top ">University Of California, San Diego</h4>
+                <h6 class="colby ">Spring Quarter 2014</h6>
+                <div class="mdl-card__supporting-text">
+                  CSE 110(Software Engineering) was designed to be run like a business. Every person in the ten person group had a job. I was nominated
+                  as the Project Manager. This job involved presenting the project at "Customer Meetings", as well as working with all ten people to have a working product at the end of 10 weeks. We were reasonably successful and you can check it out at <a class="mdl-color-text--primary" href="http://mngr.herokuapp.com/"> MNGR</a>. Disclaimer: The project has not been updated since the end of the school year. 
+                </div>
+              </div>
+              
+            </div>
+            
+
+            
+          </section>
+
+        </div>
+      </section>
+
+
+      <section class="mdl-layout__tab-panel" id="projects">
+        <div class="page-content">
+          <!-- Your content goes here -->
+          <section class="section--center mdl-grid" >
+
+            
+              <div class=" mdl-cell mdl-card  mdl-cell--6-col  mdl-shadow--4dp  ">
+                <div class=" dropx mdl-card__media mdl-color--blue-grey-800 " >
+                  <img class="img-wrapper"src="./assets/dropx_clouds_blue_gold.png">
+                </div>
+                <div class="mdl-card__title">
+                  <h4 class="mdl-car__title-text"> Started: Summer 2015     Completed: --</h4>
+                </div>
+                <div class="mdl-card__supporting-text mdl-color--white">
+                    The goal of DropX is to entice people out of their homes. It does this through allowing people to share their unique experiences outside But for the user to find these events, they must physically leave their home and go hunt for them.  If you are interested in this project, ask me. I have plenty to talk about.
+
+                    <hr>
+
+                  <h4 > Tools</h4>
+
+                    <div class="mdl-card__supporting-text mdl-color--white">
+                   Android, NodeJs, MongoDB
+                 </div>
+                </div>
+
+
+              </div>
+              <div class="mdl-cell mdl-card  mdl-cell--6-col  mdl-shadow--4dp">
+                <header class=" dropx mdl-color--blue-grey-800 mdl-color-text--accent">
+
+                  <h3>This Website!</h3></header>
+
+                  <div class="mdl-card__title">
+                  <h4 class="mdl-car__title-text"> Looking Good: Summer 2015</h4>
+                </div>
+                  <div class="mdl-card__supporting-text mdl-color--white">
+
+                    This is a rather meta post, but yes this website is a tiny project of mine. I decided to go with a Material Design, solely from my experience of making Android Applications. Over time Google has convinced me Material provides simplicity to good design. <br>
+                    I must thank Google's
+                    <a href="http://www.getmdl.io/" class="mdl-color-text--primary">Material Design Lite</a> for the majority of clean styling for this site.
+                     <br>
+                    
+                    <hr>
+                  <h4 > Tools</h4>
+
+                  <div class="mdl-card__supporting-text mdl-color--white">HTML, CSS </div>
+
+                  </div>
+              </div>
+            
+
+
+
+          </section>
+        
+
+        </div>
+      </section>
+
+      <section class="mdl-layout__tab-panel" id="contact">
+        <div class="page-content">
+
+          <!-- Your content goes here -->
+          <section class="section--center mdl-grid">
+            <div class=" mdl-cell mdl-cell--12-col">
+
+              <h3> So you want to talk:</h3>
+              <div class = "centerV" style="padding-left:16px">
+                <a class="linkedIn mdl-color-text--light-blue-600" href="https://www.linkedin.com/pub/colby-harrison/b1/9/632" >in </span>
+                <a href="mailto:colbyharrison91@gmail.com"> <i class="material-icons md-96 red600">email</i></a>
+              </div>
+              <h3>Or perhaps you want my Resume:</h3>
+
+              <div class="centerV" style="padding-left:9px">
+               <a class = "mdl-color-text--orange-600"href="./assets/pdf/ColbyHResume.pdf ">  <i class="material-icons md-96">save</i></a>
+              </div>
+              
+
+            </div>
+          </section>
+        </div>
+      </section>
